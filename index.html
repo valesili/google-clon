@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clon de Google</title>
   <link rel="stylesheet" href="./styles.css">
+
 </head>
 
 <body>
@@ -15,8 +16,8 @@
   <div class="topnav">
     <div class="to-right">
 
-      <a>Gmail</a>
-      <a>Imágenes</a>
+      <a href="gmail">Gmail</a>
+      <a href="imagenes">Imágenes</a>
       <a>
         <img src="./icons/menu.svg" width="18px"></img>
       </a>
@@ -30,6 +31,30 @@
   <!-- Contenido -->
   <div class="main">
     <img src="./img/logo.png" href="#logo">
+  </div>
+
+  <!-- Barra de Búsqueda -->
+  <div class="input">
+    <input type="text">
+    <img src="./icons/search.svg" width="15px">
+  </div>
+
+  <!-- Botones -->
+  <div class="botones">
+    <button id="search" class="btn-search">
+      Buscar con Google
+    </button>
+    <button id="lucky" class="btn-search">
+      Me siento con suerte
+    </button>
+  </div>
+
+  <div class="text" style="margin: auto;">
+    <p>Ofrecido por Google en:
+      <a style="color: blue">  English </a>
+      <a style="color: blue"> Español (Latinoamérica)</a>
+      <a style="color: blue">  Quechua</a>
+    </p>
   </div>
 
   <!-- Bottom Navigation Bar -->
