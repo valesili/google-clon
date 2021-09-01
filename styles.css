@@ -68,6 +68,15 @@ body {
   padding-left: 40px;
   border-radius: 30px;
   border-width: 1px;
+  border-color: #d3d2d2;
+}
+
+#input-search:focus{
+  outline: none;
+}
+
+input:hover{
+  border-color: #747474;
 }
 
 .botones {
@@ -83,7 +92,11 @@ button {
   padding: 13px 20px;
   cursor: pointer;
   background-color: #f8f9fa;
-  border: none;
+  border:none;
+}
+
+button:hover{
+  background-color: #dbdddf;
 }
 
 .text{
@@ -95,4 +108,8 @@ button {
 
 a{
   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
